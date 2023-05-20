@@ -30,9 +30,8 @@ function updateCounter() {
     }
   }
   
-  // Call the updateCounter function when the page loads
-  window.addEventListener("load", updateCounter);
-
+// Call the updateCounter function when the DOM content is loaded
+document.addEventListener("DOMContentLoaded", updateCounter);
 
 
 // main
