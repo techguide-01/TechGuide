@@ -543,11 +543,16 @@ html::-webkit-scrollbar-thumb{
     color: #130F40;
   }
 
+  .footer .counter h3 {
+    font-size: 2.2rem;
+    text-transform: capitalize;
+    color: #130F40;
+    padding: 1rem 0;
+  }
+  
 
 
-
-
-
+  
 
 /* media queries  */
 @media (max-width:991px){
